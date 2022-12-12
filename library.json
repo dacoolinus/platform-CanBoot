@@ -12,7 +12,8 @@
     ],
     "dependencies": {
         "Wiz-IO/wizio-pico": "~1.1.1",
-        "Wiz-IO/tool-wizio-pico": "~1.0.0"
+        "Wiz-IO/tool-wizio-pico": "~1.0.0",
+        "Wiz-IO/framework-wizio-pico": "~1.1.1"
     },
     "build": {
         "includeDir": "./include",
@@ -20,6 +21,6 @@
         "extraScript": "library.py"
     },
     "license": "GPL-3.0-or-later",
-    "frameworks":"*",
+    "frameworks":"framework-wizio-pico",
     "platforms":"*"
 }
