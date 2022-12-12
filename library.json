@@ -1,0 +1,25 @@
+{
+    "name": "plaform-CANBOOT",
+    "version": "1.0.0",
+    "description": "A CAN-Based bootloader for the RP2040 based on canboot",
+    "keywords": "CAN, CANbus, bootloader",
+    "authors": [
+        {
+            "name": "Collin Brown",
+            "url": "https://github.com/dacoolinus",
+            "maintainer": true
+        }
+    ],
+    "dependencies": {
+        "Wiz-IO/wizio-pico": "~1.1.1",
+        "Wiz-IO/tool-wizio-pico": "~1.0.0"
+    },
+    "build": {
+        "includeDir": "./include",
+        "srcDir": "./src",
+        "extraScript": "library.py"
+    },
+    "license": "GPL-3.0-or-later",
+    "frameworks":"*",
+    "platforms":"*"
+}
